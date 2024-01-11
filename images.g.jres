@@ -1,0 +1,70 @@
+{
+    "image4": {
+        "data": "hwQIAAgAAADdBADu3QQA7kTdIgBE3SIARN0iAETdIgDdBADu3QQA7g==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "PlayerGain"
+    },
+    "image1": {
+        "data": "hwQIAAgAAABABN0AQATdAETdIu5E3SLuRN0i7kTdIu5ABN0AQATdAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Player"
+    },
+    "image2": {
+        "data": "hwQIAAgAAAAAAAAAAHAHAAAHcABwcAcHcHAHBwAHcAAAcAcAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Gem"
+    },
+    "image3": {
+        "data": "hwQIAAgAAAAgIgIAIiQiAEIiIgIgIiIiICIiIiIiQgIiIiQAICICAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "hp1"
+    },
+    "image6": {
+        "data": "hwQIAAgAAADAzAwAzMvMALzMzAzAzMzMwMzMzMzMvAzMzMsAwMwMAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "hp0"
+    },
+    "image5": {
+        "data": "hwQIAAgAAAAAAAAAAEBABABARAQAREQAQEREBEBEBABARAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "swordBasic"
+    },
+    "image7": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAJAAAAAAAACQkAkJAAAAAACQCQAAAAAAkJmZmQkAAJCZmZkJAAAAAACQCQAAAAAAkJAJCQAAAAAAAAkAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "test"
+    },
+    "anim2": {
+        "namespace": "myAnimations",
+        "id": "anim2",
+        "mimeType": "application/mkcd-animation",
+        "data": "YzgwMDA4MDAwODAwMDQwMDQ0NDQ0NDQ0NDQ0NDQ0NDQwMDQ0NDQwMDAwZGRkZDAwZDAyMmQyMGRkMDIyZDIwZDAwZWVlZTAwMDAwMGVlMDAwMDQ0NDQwMDQ0NDQ0NDQ0NDQ0NDQ0NDQwMGRkZGQwMGRkMjIyMmRkZGQyMjIyZGQwMGVlZWUwMDAwZWVlZTAwNDQ0NDQ0NDQ0NDQ0NDQ0NDAwNDQ0NDAwMDBkZGRkMDBkMDJkMjIwZGQwMmQyMjBkMDBlZWVlMDAwMGVlMDAwMDAwNDQ0NDAwNDQ0NDQ0NDQ0NDQ0NDQ0NDAwZGRkZDAwZGQyMjIyZGRkZDIyMjJkZDAwZWVlZTAwMDBlZWVlMDA=",
+        "displayName": "walkUp"
+    },
+    "anim1": {
+        "namespace": "myAnimations",
+        "id": "anim1",
+        "mimeType": "application/mkcd-animation",
+        "data": "YzgwMDA4MDAwODAwMDQwMDQ0NDQ0NDQ0NDQ0NDQ0NDQwMGRkZGQwMDAwZGRkZDAwZDAyZDIyMGRkMDJkZWUwZDAwZWVlZTAwMDBlZTAwMDAwMDQ0NDQwMDQ0NDQ0NDQ0NDRkZGRkNDQwMGRkZGQwMGRkMjIyMmRkZGQyMjIyZGQwMGVlZWUwMDAwZWVlZTAwNDQ0NDQ0NDQ0NDQ0NDQ0NDAwZGRkZDAwMDBkZGRkMDBkMDIyZDIwZGQwZWVkMjBkMDBlZWVlMDAwMDAwZWUwMDAwNDQ0NDAwNDQ0NDQ0NDQ0NGRkZGQ0NDAwZGRkZDAwZGQyMjIyZGRkZDIyMjJkZDAwZWVlZTAwMDBlZWVlMDA=",
+        "displayName": "walkDown"
+    },
+    "anim3": {
+        "namespace": "myAnimations",
+        "id": "anim3",
+        "mimeType": "application/mkcd-animation",
+        "data": "YzgwMDA4MDAwODAwMDQwMDQ0NDQ0NDQ0NDQ0NDQ0NDQwMGRkZGQwMDAwZGRkZDBkZDAyMmQyMGRkMDIyMjIwZWUwMGVlMDBlZTAwZTAwMDAwMDQ0NDQ0NDQ0NDQ0NDQ0NDRkZGRkMDAwMGRkZGQwMDAwZDIyZDAwMDBkMjJkMDAwMGVlZWUwMDAwZWVlZTAwNDQ0NDQ0NDQ0NDQ0NDQ0NDAwZGRkZDAwMDBkZGRkMGRkMDJkMjIwZGQwMmRlMjBlZTAwZWUwMGVlMDBlMDAwMDAwNDQ0NDQ0NDQ0NDQ0NDQ0NGRkZGQwMDAwZGRkZDAwMDBkMjJkMDAwMGQyMmQwMDAwZWVlZTAwMDBlZWVlMDA=",
+        "displayName": "walkRight"
+    },
+    "anim4": {
+        "namespace": "myAnimations",
+        "id": "anim4",
+        "mimeType": "application/mkcd-animation",
+        "data": "YzgwMDA4MDAwODAwMDQwMDQ0NDQ0NDQ0NDQ0NDQ0NDQwMGRkZGQwMGQwZGRkZDAwZDAyZDIyMGRlMDIyMjIwZGUwMGVlMDBlMDAwMGUwMGU0NDQ0NDQwMDQ0NDQ0NDQ0MDBkZGRkNDQwMGRkZGQwMDAwZDIyZDAwMDBkMjJkMDAwMGVlZWUwMDAwZWVlZTAwNDQ0NDQ0NDQ0NDQ0NDQ0NDAwZGRkZDAwZDBkZGRkMDBkMDIyZDIwZGUwMmVkMjBkZTAwZWUwMGUwMDAwZTAwZTQ0NDQ0NDAwNDQ0NDQ0NDQwMGRkZGQ0NDAwZGRkZDAwMDBkMjJkMDAwMGQyMmQwMDAwZWVlZTAwMDBlZWVlMDA=",
+        "displayName": "walkLeft"
+    },
+    "*": {
+        "mimeType": "image/x-mkcd-f4",
+        "dataEncoding": "base64",
+        "namespace": "myImages"
+    }
+}

@@ -1,5 +1,12 @@
 function loadMap (TX: number, TY: number) {
     tiles.setCurrentTilemap(tileUtil.createSmallMap(tilemap`level1`))
+    for (let X = 0; X <= 20; X++) {
+        for (let Y = 0; Y <= 15; Y++) {
+            if (!(tiles.tileAtLocationEquals(tiles.getTileLocation(X, Y), assets.tile`transparency8`))) {
+                tiles.setWallAt(tiles.getTileLocation(X, Y), true)
+            }
+        }
+    }
 }
 function CreatePlayer () {
     mySprite = sprites.create(assets.image`Player`, SpriteKind.Player)

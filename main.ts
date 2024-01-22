@@ -25,7 +25,7 @@ controller.B.onEvent(ControllerButtonEvent.Pressed, function () {
 })
 function CreatePlayer () {
     mySprite = sprites.create(assets.image`Player`, SpriteKind.Player)
-    controller.moveSprite(mySprite, 75, 75)
+    controller.moveSprite(mySprite, 70, 0)
     mySprite.setStayInScreen(true)
     characterAnimations.loopFrames(
     mySprite,
@@ -105,20 +105,34 @@ CreatePlayer()
 loadMap()
 game.onUpdate(function () {
     if (mySprite.x == 4) {
-        mySprite.x = 155
+        mySprite.x = 153
         TX += -1
         loadMap()
     } else if (mySprite.x == 156) {
-        mySprite.x = 5
+        mySprite.x = 9
         TX += 1
         loadMap()
     } else if (mySprite.y == 28) {
-        mySprite.y = 115
+        mySprite.y = 112
         TY += -1
         loadMap()
     } else if (mySprite.y == 116) {
-        mySprite.y = 29
+        mySprite.y = 36
         TY += 1
         loadMap()
+    }
+    // This is done to fix a bug that sucks where you can get onto wall
+    // tiles by moving
+    // diagonally
+    if (mySprite.vx == 0) {
+        if (controller.up.isPressed()) {
+            mySprite.vy = -70
+        } else if (controller.down.isPressed()) {
+            mySprite.vy = 70
+        } else {
+            mySprite.vy = 0
+        }
+    } else {
+        mySprite.vy = 0
     }
 })

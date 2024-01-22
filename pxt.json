@@ -6,7 +6,8 @@
         "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.1.0",
         "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
         "Inventory": "github:UnsignedArduino/Inventory#v1.1.1",
-        "pxt-arcade-image-transform": "github:robo-technical-group/pxt-arcade-image-transform#v1.0.9"
+        "pxt-arcade-image-transform": "github:robo-technical-group/pxt-arcade-image-transform#v1.0.9",
+        "arcade-mini-menu": "github:riknoll/arcade-mini-menu#96cf1014271246d15b85368b45f298bd8c6609c4"
     },
     "files": [
         "main.blocks",
